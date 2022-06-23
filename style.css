@@ -171,6 +171,7 @@ section img#mountains_front
 	z-index: 15;
 	text-size-adjust: auto;
 	text-transform: capitalize;
+	transform: translateY(30px);
 	
 	
 }
@@ -186,7 +187,7 @@ section img#mountains_front
 	color: #2b1055;
 	font-size: auto;
 	z-index: 9;
-	transform: translateY(70px);
+	transform: translateY(30px);
 	
 
 
