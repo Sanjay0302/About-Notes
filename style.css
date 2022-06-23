@@ -7,6 +7,15 @@
 	scroll-behavior: smooth;
 
 }
+@viewport{
+	zoom: 1.0;
+	width: extend-to-zoom;
+
+}
+@-ms-viewport{
+	zoom: 1;
+	width: extend-to-zoom;
+}
 
 body
 {
@@ -26,7 +35,7 @@ header
 	width: 100%;
 	padding: 30px,100px;
 	display: flex;
-	/* justify-content: space-between; */
+	justify-content: space-between;
 	align-items: center;
 	z-index: 10000; /* to bring the text above the image used */
 }
@@ -41,9 +50,10 @@ header .logo
 	text-transform: uppercase;
 	letter-spacing: 1px ;	
 	margin-left: 20px;	
+	width: auto;
 }
 
-header .logo2
+/* header .logo2
 {
 	margin-top: 40px;
 	color: white;
@@ -54,15 +64,20 @@ header .logo2
 
 
 
-}
+} */
 
 header ul
 {
 	font-family: 'poppins', sans-serif;
 	display: flex;
-	justify-content: inherit	;
+	justify-content: safe;
 	align-items: center;
 	margin-right: 20px;
+	/* display: list-item; */
+	/* display: flow-root; */
+	display: inline-block;
+
+
 }
 
 header ul li
@@ -82,8 +97,8 @@ header ul li a
 
 }
 
-header ul li a:hover,
-header ul li a.active
+header ul li a:hover
+/* header ul li a.active */
 {
 
 	background-color: #fff;
@@ -163,7 +178,7 @@ section img#mountains_front
 	color: #2b1055;
 	font-size: 1.5em;
 	z-index: 9;
-	transform: translateY(10px);
+	transform: translateY(100px);
 
 
 
