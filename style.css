@@ -76,7 +76,9 @@ header ul
 	/* display: list-item; */
 	/* display: flow-root; */
 	display: inline-block;
-
+	margin-top: 20px;
+	column-gap: 100px;
+	row-gap: 100px;
 
 }
 
@@ -191,7 +193,7 @@ section img#mountains_front
 {
 	margin: 0;
 	padding: 0;
-	position: relative;
+	/* position: relative; */
 	padding: 100px;
 	background: #1c0522;
 }
@@ -218,3 +220,8 @@ section img#mountains_front
 	text-align: justify;
 }
 
+footer{
+
+	
+	background-color: #2b1055;
+}
