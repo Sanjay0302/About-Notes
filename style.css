@@ -186,7 +186,7 @@ section img#mountains_front
 	color: #2b1055;
 	font-size: auto;
 	z-index: 9;
-	transform: translateY(30px);
+	transform: translateY(-30px);
 	
 
 
