@@ -165,8 +165,8 @@ section img#mountains_front
 	color: #fff;
 	white-space: nowrap;
 	/* font-size: 7.5vw; */
-	font-size: 10px;
-        margin-bottom: 30px;
+	font-size: 2em;
+        /* margin-bottom: 10px; */
 	/* font-size: 1.5em; */
 	z-index: 15;
 	text-size-adjust: auto;
