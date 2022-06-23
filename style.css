@@ -20,10 +20,10 @@
 body
 {
 	min-height: 100vh;
- 	background: linear-gradient(#2b1055,#7597de);
+	background: linear-gradient(#2b1055,#7597de);
 	overflow-x: hidden;
 	
-
+	
 }
 
 
@@ -61,9 +61,9 @@ header .logo
 	margin-left:21px;
 	font-family: 'poppins',sans-serif;
 	text-decoration: underline;
+	
 
-
-
+	
 } */
 
 header ul
@@ -79,7 +79,7 @@ header ul
 	margin-top: 20px;
 	column-gap: 100px;
 	row-gap: 100px;
-
+	
 }
 
 header ul li
@@ -136,7 +136,7 @@ section::before
 
 section img
 {
-position: absolute;
+	position: absolute;
 top: 0;
 left: 0;
 width: 100%;
@@ -184,17 +184,17 @@ section img#mountains_front
 	font-size: auto;
 	z-index: 9;
 	transform: translateY(35px);
-
+	
 
 
 }
 
 .sec
 {
-	margin: 0;
-	padding: 0;
+	/* margin: 2px; */
+	/* padding: 0; */
 	/* position: relative; */
-	padding: 100px;
+	padding: 20px;
 	background: #1c0522;
 }
 
@@ -206,13 +206,14 @@ section img#mountains_front
 	color: #fff;
 	/* justify-content: space-around; */
 	text-align: center;
+	
 
-
+	
 }
 
 .sec p
 {
-
+	
 	font-family: 'poppins',sans-serif;
 	font-size: 1em;
 	color: white ;
@@ -220,8 +221,20 @@ section img#mountains_front
 	text-align: justify;
 }
 
-footer{
+/* footer{
 
 	
-	background-color: #2b1055;
-}
+	font-family: 'poppins',sans-serif;
+	background: linear-gradient(#1c0522,#010d11);
+	color: white;
+	height: 50px;
+} */
+
+/* footer li a#btw{
+	color: red;
+	list-style: none;
+	display: flex;
+	list-style: decimal;
+
+
+}  */
