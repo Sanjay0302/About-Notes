@@ -8,7 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
 	<link rel="stylesheet" type="text/css" href="style.css">
-
+	<script async src="https://api.countapi.xyz/hit/About-Notes/44cbc1b9-2af0-4815-a734-4398eb719401?callback=websiteVisits"></script>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
@@ -20,7 +20,7 @@
 <header>
 
 
-	<a href="#" class="logo">Rnsit Unofficial</a>
+	<a data-text="Rnsit Unofficial" href="#" class="logo">Rnsit Unofficial</a>
 	<!-- <a href="#" class="logo2">by sanjaybyranna</a> -->
 <ul>
 	<li><a href="#sec" class="active">About</a></li>
@@ -50,20 +50,19 @@
 		This website will help you to reach notes, which are official written by Rnsit staff's.
 		<br><br>And the Notes I am talking about is exclusively for 4th sem ECE students who are studying 2018 scheme under VTU .
 		<br><br>It's free to use these notes from, <a style="color:yellow" href="https://telegram.me/ECE4thSemRnsitNotes2022">4th sem unofficial telegram channel</a>.  
-		<br><br>This Telegram Channel also have the Reffrence books and question papers required for 2022.
+		<br><br>This Telegram Channel also contain Reffrence books and previous year Question papers required.
 		<!-- <br><br>Do Join the telegram channel for your benefit. -->
-		<br><br>If you have any queries and request, you can <a style="color:yellow" href="https://telegram.me/sanjaybyranna">Contact Me</a> or Put a message in <a style="color:yellow" href="https://telegram.me/Rnsitnotesdiscussion">Discussion group</a>, so that you're served with what you want.
+		<br><br>If you have any queries and request, you can <a style="color:yellow" href="https://telegram.me/sanjaybyranna">Contact Me</a> or Put a message in this <a style="color:yellow" href="https://telegram.me/Rnsitnotesdiscussion">Discussion group</a>, so that you're served with what you want.
 		<br><br>Do help me to reach atleast 100 Subscribers.
 		<br><br>And also requesting you Guys to support my <a style="color:yellow" href="https://telegram.me/ECE3rdSemRnsitNotes2021">3rd sem unofficial telegram channel</a>  by letting juniors to know about the channel.
 	</p>
 	 
 
 </div>
-<!-- 
+
 <footer>
-	<li><a href="#" id="btw">hello</a></li>
-	<li><a href="#">hello</a></li>
-</footer> -->
+	<p>This Website has been visited <span id="visits"></span> times.<br> Thank you, for contributing to this visits.</p>
+</footer>
 
 <script>
 
@@ -90,6 +89,10 @@
 		header.style.top = value * 0.5 + 'px';
 	
 	})
+
+	function websiteVisits(response) {
+    document.querySelector("#visits").textContent = response.value;
+}
 
 
 </script>

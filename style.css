@@ -150,6 +150,7 @@ pointer-events: none;
 section img#moon
 {
 	mix-blend-mode: screen;
+	transform: translateY(50px);
 
 
 }
@@ -169,6 +170,7 @@ section img#mountains_front
         /* margin-bottom: 10px; */
 	/* font-size: 1.5em; */
 	z-index: 15;
+	mix-blend-mode: overlay;
 	text-size-adjust: auto;
 	text-transform: capitalize;
 	transform: translateY(-50px);
@@ -184,11 +186,11 @@ section img#mountains_front
 	padding: 10px 30px;
 	border-radius: 40px;
 	background: #fff;
+	mix-blend-mode: screen;
 	color: #2b1055;
 	font-size: auto;
 	z-index: 9;
 	transform: translateY(10px);
-	
 
 
 }
@@ -224,22 +226,80 @@ section img#mountains_front
 	margin-bottom: 10px ;
 	text-align: justify;
 	text-decoration: none;
+	/* text-overflow: hidden; */
 }
 
-/* footer{
+
+
+header .logo{
+
+	font-family: 'poppins', sans-serif;
+position: relative;
+font-size: 2em;
+/* color: #2b1055;*/
+color: transparent;
+/* -webkit-text-stroke: 0.1vw #20d308; */
+-webkit-text-stroke: 0.3vw yellow;
+
+
+
+}
+
+
+
+header .logo::before{
+	content: attr(data-text);
+	position :absolute;
+	top: 0%;
+	left: 0%;
+	width: 0;
+	height: 100%;
+	color: yellow;
+ 	border-right: 6px solid yellow;
+	overflow: hidden;
+	animation: animate 6s linear infinite;
+
+
+}
+
+@keyframes animate
+{
+	0%,20%,100%
+	{
+		width:0;
+
+	}
+	80%,90%
+	{
+		width: 100%;
+	}
+
+}
+
+footer{
 
 	
 	font-family: 'poppins',sans-serif;
-	background: linear-gradient(#1c0522,#010d11);
-	color: white;
-	height: 50px;
-} */
+	/* background: #1c0522; */
+	background: linear-gradient(#1c0522,#15011a);
+	height: auto;
+	/* display: flex; */
+	/* justify-content: center; */
+	padding-bottom: 10px;
+	padding-top: 10px;
+	
+}
 
-/* footer li a#btw{
-	color: red;
-	list-style: none;
-	display: flex;
-	list-style: decimal;
+footer p{
+	font-family: 'poppins', sans-serif;
+/* position: relative; */
+font-size: 20px;
+color: yellow;
+align-content: center;
+text-align: center;
 
 
-}  */
+
+
+}
+
