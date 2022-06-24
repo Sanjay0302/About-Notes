@@ -165,13 +165,13 @@ section img#mountains_front
 	color: #fff;
 	white-space: nowrap;
 	/* font-size: 7.5vw; */
-	font-size: 2em;
+	font-size: 3em;
         /* margin-bottom: 10px; */
 	/* font-size: 1.5em; */
 	z-index: 15;
 	text-size-adjust: auto;
 	text-transform: capitalize;
-	transform: translateY(30px);
+	transform: translateY(-50px);
 	
 	
 }
@@ -181,13 +181,13 @@ section img#mountains_front
 	font-family: 'poppins',sans-serif;
 	text-decoration: none;
 	display: inline-block;
-	padding: 8px 20px;
+	padding: 10px 30px;
 	border-radius: 40px;
 	background: #fff;
 	color: #2b1055;
 	font-size: auto;
 	z-index: 9;
-	/*transform: translateY(30px);*/
+	transform: translateY(10px);
 	
 
 
@@ -223,6 +223,7 @@ section img#mountains_front
 	color: white ;
 	margin-bottom: 10px ;
 	text-align: justify;
+	text-decoration: none;
 }
 
 /* footer{
