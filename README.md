@@ -3,7 +3,11 @@
 ------------------------------------------------
 Is this website made for a `purpose`:question:
 -----------------------------------------------------------
-Yes , to publish my two telegram channels which are created to contain all `Rnsit notes written by staff`:green_book:, `question paper`:page_with_curl: and the 
+Yes , to publish my two telegram channels which are created to contain all 
+
+`Rnsit notes written by staff`:green_book:, 
+
+`question paper`:page_with_curl:, 
 
 `refference books`:books: required by both `3rd sem` and `4th sem students` who are `studying VTU 2018 scheme`.
 
