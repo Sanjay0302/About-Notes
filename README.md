@@ -26,7 +26,10 @@ Just with my basic knowledge of `html` `css` and `java script`
 :diamond_shape_with_a_dot_inside:and `added direct links` to my `telegram channels`.
 
 --------------------------------------------------
-:computer: [`Click here to preview the website`](https://sanjay0302.github.io/About-Notes/)
----------------------------------------------------------
-[`3Rd sem telegram notes channel`](https://t.me/ECE3rdSemRnsitNotes2021)
-[`4TH sem telegram notes channel `](https://telegram.me/ECE4thSemRnsitNotes2022)
+`Try using mobile view`:iphone: 
+-------------------------------
+:diamond_shape_with_a_dot_inside:[`Click here to preview the website`](https://sanjay0302.github.io/About-Notes/) 
+
+:diamond_shape_with_a_dot_inside:[`3Rd sem telegram notes channel`](https://t.me/ECE3rdSemRnsitNotes2021)
+
+:diamond_shape_with_a_dot_inside:[`4TH sem telegram notes channel `](https://telegram.me/ECE4thSemRnsitNotes2022)
