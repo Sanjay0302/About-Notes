@@ -1,6 +1,6 @@
 [Deployed HERE](https://sanjay0302.github.io/About-Notes/)
 
-I am Glad :relaxed: , to say that this is my `first static HTML website built from scratch `
+I am Glad, to say that this is my `first static HTML website built from scratch `
 
 ### Is this website made for a `purpose`:question:
 
